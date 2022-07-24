@@ -1,6 +1,9 @@
-# Salesforce DX Project: Next Steps
+# Salesforce HandsOn Challenge: parentChildProblem
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+We have two objects ParentObject__c and ChildObject__c. The ChildObject__c (child) has master detail relationship with ParentObject__c (master). 
+The both objects have a custom field named Amount__c but the Amount__c field on ChildObject__c should be calculated as follows.
+
+ChildObject__c.Amount__c = (ParentObject__c.Amount__c / Total number of ChildObject__c records for ParentObject__c record)
 
 ## How Do You Plan to Deploy Your Changes?
 
